@@ -1,0 +1,2 @@
+# Spreadsheet reader planned for the Excel-to-XSD implementation.
+openpyxl>=3.1,<4
