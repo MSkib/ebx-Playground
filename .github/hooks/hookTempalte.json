@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "hooks": {
+        "errorOccurred": [
+            {
+                "type": "command",
+                "bash": "./scripts/security-check.sh",
+                "powershell": "./scripts/security-check.ps1",
+                "cwd": "scripts",
+                "timeoutSec": 15
+            }
+        ]
+    }
+}

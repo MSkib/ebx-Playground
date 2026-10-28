@@ -25,6 +25,14 @@ testing in a compatible EBX installation.
 
 GitHub Copilot workspace instructions and reusable prompts are in `.github/`.
 
+## Tomcat runtime errors
+
+Run the VS Code task **Watch EBX Tomcat errors** while Tomcat is running. It
+watches the configured daily Catalina log and creates a separate report for
+each distinct error under `logs/ebx-errors/`. See the
+[build and test guide](docs/ai-engineering/build-and-test.md) for details and
+requirements.
+
 ## Excel-to-XSD scaffold
 
 `tools/schema-generator/` and `tests/schema-generator/` contain a starter

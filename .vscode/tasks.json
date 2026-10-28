@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Watch EBX Tomcat errors",
+      "type": "process",
+      "command": "python",
+      "args": [
+        "${workspaceFolder}\\tools\\tomcat-log-monitor\\watch_tomcat_errors.py",
+        "--log-directory",
+        "C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\logs",
+        "--output-directory",
+        "${workspaceFolder}\\logs\\ebx-errors"
+      ],
+      "isBackground": true,
+      "problemMatcher": []
+    }
+  ]
+}
