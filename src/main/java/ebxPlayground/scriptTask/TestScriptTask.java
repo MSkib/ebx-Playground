@@ -3,6 +3,10 @@ package ebxPlayground.scriptTask;
 import com.orchestranetworks.service.OperationException;
 import com.orchestranetworks.workflow.ScriptTask;
 import com.orchestranetworks.workflow.ScriptTaskContext;
+import com.orchestranetworks.service.Session;
+
+import ebxPlayground.util.EbxUtil;
+import ebxPlayground.util.UpdateUtil;
 
 public class TestScriptTask extends ScriptTask {
 
